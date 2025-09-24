@@ -1,0 +1,1 @@
+/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/hand_trajectory/hand_trajectory_node.launch.py

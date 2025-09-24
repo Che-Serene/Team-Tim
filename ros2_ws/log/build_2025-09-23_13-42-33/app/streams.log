@@ -1,0 +1,45 @@
+[1.308s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/build --no-deps symlink_data
+[1.544s] running develop
+[1.544s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.544s]   warnings.warn(msg)
+[1.564s] running egg_info
+[1.570s] creating app.egg-info
+[1.570s] writing app.egg-info/PKG-INFO
+[1.570s] writing dependency_links to app.egg-info/dependency_links.txt
+[1.570s] writing entry points to app.egg-info/entry_points.txt
+[1.571s] writing requirements to app.egg-info/requires.txt
+[1.571s] writing top-level names to app.egg-info/top_level.txt
+[1.571s] writing manifest file 'app.egg-info/SOURCES.txt'
+[1.589s] reading manifest file 'app.egg-info/SOURCES.txt'
+[1.589s] writing manifest file 'app.egg-info/SOURCES.txt'
+[1.597s] running build_ext
+[1.597s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/python3.12/site-packages/app.egg-link (link to .)
+[1.598s] Installing ar_app script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] Installing hand_gesture script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] Installing hand_trajectory script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] Installing lidar_controller script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] Installing line_following script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] Installing object_tracking script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/app
+[1.598s] 
+[1.598s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app
+[1.598s] running symlink_data
+[1.598s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/ament_index/resource_index/packages
+[1.598s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/resource/app -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/ament_index/resource_index/packages
+[1.598s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app
+[1.598s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.598s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/ar_app_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/object_tracking_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/start_app.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/lidar_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/hand_gesture_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/launch/line_following_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/launch
+[1.599s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/chair.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/cow.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/pirate-ship-fat.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/rat.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/model.jpg -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/wolf.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/fox.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.599s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/models/bicycle.obj -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/share/app/models
+[1.707s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/app/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/app/build --no-deps symlink_data

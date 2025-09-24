@@ -1,0 +1,26 @@
+[0.515s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/build --no-deps symlink_data
+[0.592s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.592s]   warnings.warn(msg)
+[0.646s] running develop
+[0.711s] running egg_info
+[0.719s] creating ros_robot_controller.egg-info
+[0.719s] writing ros_robot_controller.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ros_robot_controller.egg-info/dependency_links.txt
+[0.719s] writing entry points to ros_robot_controller.egg-info/entry_points.txt
+[0.719s] writing requirements to ros_robot_controller.egg-info/requires.txt
+[0.719s] writing top-level names to ros_robot_controller.egg-info/top_level.txt
+[0.719s] writing manifest file 'ros_robot_controller.egg-info/SOURCES.txt'
+[0.735s] reading manifest file 'ros_robot_controller.egg-info/SOURCES.txt'
+[0.736s] writing manifest file 'ros_robot_controller.egg-info/SOURCES.txt'
+[0.744s] running build_ext
+[0.744s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros-robot-controller.egg-link (link to .)
+[0.744s] Installing ros_robot_controller script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/lib/ros_robot_controller
+[0.744s] 
+[0.744s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller
+[0.744s] running symlink_data
+[0.744s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/share/ament_index/resource_index/packages
+[0.744s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/resource/ros_robot_controller -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/share/ament_index/resource_index/packages
+[0.744s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/share/ros_robot_controller
+[0.745s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/share/ros_robot_controller/launch
+[0.745s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/launch/ros_robot_controller.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/share/ros_robot_controller/launch
+[0.762s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/ros_robot_controller/build --no-deps symlink_data

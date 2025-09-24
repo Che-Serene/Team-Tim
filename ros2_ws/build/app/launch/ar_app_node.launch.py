@@ -1,0 +1,1 @@
+/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/src/app/launch/ar_app_node.launch.py

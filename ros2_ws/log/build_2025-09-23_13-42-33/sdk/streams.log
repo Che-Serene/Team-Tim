@@ -1,0 +1,22 @@
+[0.566s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/build --no-deps symlink_data
+[0.653s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.653s]   warnings.warn(msg)
+[0.708s] running develop
+[0.772s] running egg_info
+[0.779s] creating sdk.egg-info
+[0.779s] writing sdk.egg-info/PKG-INFO
+[0.779s] writing dependency_links to sdk.egg-info/dependency_links.txt
+[0.779s] writing requirements to sdk.egg-info/requires.txt
+[0.780s] writing top-level names to sdk.egg-info/top_level.txt
+[0.780s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[0.794s] reading manifest file 'sdk.egg-info/SOURCES.txt'
+[0.795s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[0.803s] running build_ext
+[0.803s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/lib/python3.12/site-packages/sdk.egg-link (link to .)
+[0.803s] 
+[0.803s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk
+[0.803s] running symlink_data
+[0.803s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/share/ament_index/resource_index/packages
+[0.803s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/resource/sdk -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/share/ament_index/resource_index/packages
+[0.803s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/share/sdk
+[0.827s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/sdk/build --no-deps symlink_data

@@ -1,0 +1,72 @@
+[1.254s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/build --no-deps symlink_data
+[1.349s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.349s]   warnings.warn(msg)
+[1.406s] running develop
+[1.468s] running egg_info
+[1.477s] creating example.egg-info
+[1.478s] writing example.egg-info/PKG-INFO
+[1.478s] writing dependency_links to example.egg-info/dependency_links.txt
+[1.478s] writing entry points to example.egg-info/entry_points.txt
+[1.478s] writing requirements to example.egg-info/requires.txt
+[1.478s] writing top-level names to example.egg-info/top_level.txt
+[1.478s] writing manifest file 'example.egg-info/SOURCES.txt'
+[1.492s] reading manifest file 'example.egg-info/SOURCES.txt'
+[1.492s] writing manifest file 'example.egg-info/SOURCES.txt'
+[1.500s] running build_ext
+[1.501s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/python3.12/site-packages/example.egg-link (link to .)
+[1.501s] Installing automatic_pick script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing body_and_rgb_control script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing body_control script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing body_track script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing color_detect script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing color_sorting script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing color_track script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing cross_bridge script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing fall_down_detect script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing finger_control script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing garbage_classification script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing hand_detect script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing hand_gesture_control script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing hand_track script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing hand_trajectory script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing line_follow_clean script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing navigation_transport script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing object_classification script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.502s] Installing prevent_falling script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing self_driving script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing track_and_grab script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing track_object script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing vc_object_classification script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing vc_track_and_grab script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] Installing yolov5_node script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/example
+[1.503s] 
+[1.503s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example
+[1.503s] running symlink_data
+[1.504s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/ament_index/resource_index/packages
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/resource/example -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/ament_index/resource_index/packages
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example
+[1.504s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/color_detect/color_detect_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/hand_trajectory/hand_trajectory_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/hand_trajectory/finger_control.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/color_track/color_track_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.504s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/body_control/body_track.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/body_control/body_control.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/body_control/body_and_rgb_control.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/body_control/fall_down_detect.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/hand_gesture_control/hand_gesture_control_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/color_sorting/color_sorting_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/self_driving/self_driving.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/example/hand_track/hand_track_node.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/launch
+[1.505s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/bridge_plane_distance.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/roi.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/automatic_pick_roi.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.505s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/garbage_classification_roi.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.506s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/line_follow_clean_roi.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.506s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/object_classification_plane_distance.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.506s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/color_sorting_roi.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.506s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/config/plane_distance.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/config
+[1.507s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/resource
+[1.508s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/resource/flag.dae -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/share/example/resource
+[1.541s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/example/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/example/build --no-deps symlink_data

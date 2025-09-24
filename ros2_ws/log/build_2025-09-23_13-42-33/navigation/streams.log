@@ -1,0 +1,38 @@
+[1.249s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/build --no-deps symlink_data
+[1.350s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.350s]   warnings.warn(msg)
+[1.420s] running develop
+[1.501s] running egg_info
+[1.511s] creating navigation.egg-info
+[1.511s] writing navigation.egg-info/PKG-INFO
+[1.511s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[1.512s] writing requirements to navigation.egg-info/requires.txt
+[1.512s] writing top-level names to navigation.egg-info/top_level.txt
+[1.512s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[1.529s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[1.530s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[1.540s] running build_ext
+[1.540s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation.egg-link (link to .)
+[1.540s] 
+[1.540s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation
+[1.540s] running symlink_data
+[1.540s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/resource/navigation -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation
+[1.540s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/launch/rviz_rtabmap_navigation.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/launch/navigation.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/launch/rtabmap_navigation.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/launch/rviz_navigation.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/launch/rtabmapviz.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/launch
+[1.540s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/config
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/config/nav2_params.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/config
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/config/nav2_controller_teb.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/config
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/config/nav2_controller_dwb.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/config
+[1.540s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/rviz/rtabmap.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/rviz/navigation.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/rviz/navigation_transport.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/rviz/rtabmap01.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.540s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/rviz/navigation_desktop.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/share/navigation/rviz
+[1.669s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/navigation/build --no-deps symlink_data

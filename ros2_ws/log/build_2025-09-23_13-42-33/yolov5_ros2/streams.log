@@ -1,0 +1,30 @@
+[0.566s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/build --no-deps symlink_data
+[0.650s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.650s]   warnings.warn(msg)
+[0.703s] running develop
+[0.767s] running egg_info
+[0.774s] creating yolov5_ros2.egg-info
+[0.774s] writing yolov5_ros2.egg-info/PKG-INFO
+[0.775s] writing dependency_links to yolov5_ros2.egg-info/dependency_links.txt
+[0.775s] writing entry points to yolov5_ros2.egg-info/entry_points.txt
+[0.775s] writing requirements to yolov5_ros2.egg-info/requires.txt
+[0.775s] writing top-level names to yolov5_ros2.egg-info/top_level.txt
+[0.776s] writing manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[0.790s] reading manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[0.790s] writing manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[0.798s] running build_ext
+[0.798s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/lib/python3.12/site-packages/yolov5-ros2.egg-link (link to .)
+[0.799s] Installing yolo_detect script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/lib/yolov5_ros2
+[0.799s] 
+[0.799s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2
+[0.799s] running symlink_data
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2
+[0.799s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/launch/yolov5_ros2.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[0.799s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/config/camera_info.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[0.799s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/resource/mouse.png -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/resource/fish.jpg -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[0.799s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/resource/yolov5_ros2 -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[0.832s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/yolov5_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/yolov5_ros2/build --no-deps symlink_data

@@ -1,0 +1,43 @@
+[1.244s] Invoking command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/build --no-deps symlink_data
+[1.337s] /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.337s]   warnings.warn(msg)
+[1.395s] running develop
+[1.460s] running egg_info
+[1.467s] creating multi.egg-info
+[1.469s] writing multi.egg-info/PKG-INFO
+[1.469s] writing dependency_links to multi.egg-info/dependency_links.txt
+[1.469s] writing entry points to multi.egg-info/entry_points.txt
+[1.469s] writing requirements to multi.egg-info/requires.txt
+[1.469s] writing top-level names to multi.egg-info/top_level.txt
+[1.469s] writing manifest file 'multi.egg-info/SOURCES.txt'
+[1.483s] reading manifest file 'multi.egg-info/SOURCES.txt'
+[1.483s] writing manifest file 'multi.egg-info/SOURCES.txt'
+[1.492s] running build_ext
+[1.492s] Creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/python3.12/site-packages/multi.egg-link (link to .)
+[1.492s] Installing costmap_publish script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/multi
+[1.495s] Installing formation_update script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/multi
+[1.495s] Installing slave_tf_listener script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/multi
+[1.495s] Installing tf_listen script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/multi
+[1.495s] Installing tf_publish script to /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/multi
+[1.495s] 
+[1.495s] Installed /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi
+[1.495s] running symlink_data
+[1.495s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/ament_index/resource_index/packages
+[1.495s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/resource/multi -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/ament_index/resource_index/packages
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/package.xml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi
+[1.498s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/launch
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/launch/multi_controller.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/launch
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/launch/joy_control.launch.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/launch
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/launch/joystick_control_multi.py -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/launch
+[1.498s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/launch/include
+[1.498s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/usb_cam_param.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/lidar_filters_config_g4.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/camera_info.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/lidar_filters_config_ld14p.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/lidar_filters_config_a1.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/config/lidar_filters_config_ld19.yaml -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/config
+[1.498s] creating /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/rviz
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/rviz/lidar_view.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/rviz
+[1.498s] symbolically linking /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/rviz/imu_view.rviz -> /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/share/multi/rviz
+[1.523s] Invoked command in '/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/prefix_override:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/sesac/d021rs-yolov5-ros2-Che-Serene/ros2_ws/build/multi/build --no-deps symlink_data

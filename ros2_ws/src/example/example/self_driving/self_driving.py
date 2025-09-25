@@ -259,14 +259,14 @@ class SelfDrivingNode(Node):
                     self.count_crosswalk = 0
 
                 # deceleration processing
-                if self.start_slow_down:
+                if self.start_slow_down: #
                     if self.traffic_signs_status is not None:
                         area = abs(self.traffic_signs_status.box[0] - self.traffic_signs_status.box[2]) * abs(self.traffic_signs_status.box[1] - self.traffic_signs_status.box[3])
-                        if self.traffic_signs_status.class_name == 'red' and area < 1000:  # If the robot detects a red traffic light, it will stop
+                        if self.traffic_signs_status.class_name == 'red' and area > 800:  # If the robot detects a red traffic light, it will stop
                             self.mecanum_pub.publish(Twist())
                             self.stop = True
                         elif self.traffic_signs_status.class_name == 'green':  # If the traffic light is green, the robot will slow down and pass through
-                            twist.linear.x = self.slow_down_speed
+                            twist.linear.x = self.normal_speed # self.slow_down_speed
                             self.stop = False
                     if not self.stop:  # In other cases where the robot is not stopped, slow down the speed and calculate the time needed to pass through the crosswalk. The time needed is equal to the length of the crosswalk divided by the driving speed
                         twist.linear.x = self.slow_down_speed

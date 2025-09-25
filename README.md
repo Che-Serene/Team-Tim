@@ -33,6 +33,9 @@
 ## 🎠 주행 영상
 ---
 ## 🦣 데이터 및 모델
+### 데이터
+![data_example](./training_analysis_plots3/train_batch2.jpg)
+
 ![losses](./training_analysis_plots3/01_losses.png)
 ### Trainging과 Validation 모두 수렴, 300epoch동안 과적합 없이 학습됨
 ### 🤯 모 전문가의 말씀 **팀원들과 아무런 이해상충관계가 없는 인물입니다.

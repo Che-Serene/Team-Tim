@@ -13,12 +13,12 @@
 8. [라이선스](#라이선스)
 ---
 ## 👽 프로젝트 개요
-- **목표** 
-- **스택**: Python, ROS2, OpenCV, YOLO, 🐋Docker
+- **목표**: 싸우지 않기
+- **스택**: 🐍Python, 🤖ROS2, 😮OpenCV, 💃YOLO, 🐋Docker
 ---
 ## 💣 주요 기능
 - **차선 인식**: OpenCV + Depth Map
-- **객체 감지**: YOLOv5
+- **객체 감지**: YOLOv5 + Fine-Tunning
 ---
 ## 🐉 아키텍처
 1. 센서 드라이버 (RGB 카메라, Depth 카메라)
@@ -34,6 +34,8 @@
 ---
 ## 🦣 데이터 및 모델
 ![losses](./training_analysis_plots3/01_losses.png)
+Trainging과 Validation 모두 수렴, 300epoch동안 과적합 없이 학습됨
+
 ---
 ## 🤡 팀원
 ---

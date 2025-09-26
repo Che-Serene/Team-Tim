@@ -34,8 +34,8 @@
 ---
 # 🦣데이터 및 모델
 ## 📈 데이터
-![labels](./training_analysis_plots3/labels.jpg)
-![data_example](./training_analysis_plots3/train_batch2.jpg)
+![labels](./images/labels.jpg)
+![data_example](./images/train_batch2.jpg)
 약 2000개의 원본 라벨링 이미지 생성 후 데이터 증강으로 총 4000여 개 데이터 학습
 
 ## 🎯 모델 성능

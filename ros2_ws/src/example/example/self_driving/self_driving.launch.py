@@ -40,7 +40,7 @@ def launch_setup(context):
         package='yolov5_ros2',
         executable='yolo_detect',
         output='screen',
-        parameters=[{'classes': ['go', 'right', 'park', 'red', 'green', 'crosswalk']},
+        parameters=[{'classes': ['cross', 'go', 'green', 'off', 'parking', 'red', 'right', 'yellow']},
             {"device": "cpu",
             "model": "traffic_signs_640s_7_0",
             "image_topic": "/ascamera/camera_publisher/rgb0/image",

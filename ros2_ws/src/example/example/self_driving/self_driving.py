@@ -38,7 +38,7 @@ class SelfDrivingNode(Node):
 
         self.fps = fps.FPS()  
         self.image_queue = queue.Queue(maxsize=2)
-        self.classes = ['go', 'right', 'park', 'red', 'green', 'crosswalk']
+        self.classes = ['go', 'right', 'parking', 'red', 'green', 'cross']
         self.display = True
         self.bridge = CvBridge()
         self.lock = threading.RLock()
@@ -366,7 +366,7 @@ class SelfDrivingNode(Node):
                 class_name = i.class_name
                 center = (int((i.box[0] + i.box[2])/2), int((i.box[1] + i.box[3])/2))
                 
-                if class_name == 'crosswalk':  
+                if class_name == 'cross':  
                     if center[1] > min_distance:  # Obtain recent y-axis pixel coordinate of the crosswalk
                         min_distance = center[1]
                 elif class_name == 'right':  # obtain the right turning sign
@@ -375,7 +375,7 @@ class SelfDrivingNode(Node):
                     if self.count_right >= 5:  # If it is detected multiple times, take the right turning sign to true
                         self.turn_right = True
                         self.count_right = 0
-                elif class_name == 'park':  # obtain the center coordinate of the parking sign
+                elif class_name == 'parking':  # obtain the center coordinate of the parkinging sign
                     self.park_x = center[0]
                 elif class_name == 'red' or class_name == 'green':  # obtain the status of the traffic light
                     self.traffic_signs_status = i
